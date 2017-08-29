@@ -1,0 +1,20 @@
+/*
+1.通过uid和skuid获取货架上的商品
+URL:/salesordermanager/salesorder.do
+请求参数
+sign
+platform:PC必传
+data（data为所有业务参数des加密集合。如des(provinceid=110000&cityid=110100)）
+interfacecode:queryCommdityOnlineByUid
+user_id:店铺id
+sku_barcode:二维码
+*/
+{
+  "interfacecode":"queryCommdityOnlineByUid",
+  "sku_barcode":""//二维码
+//  "abc":"",
+//  "bac":""
+}
+
+//必须
+//可空

@@ -1,0 +1,58 @@
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <form>
+
+
+            <table class="table table-bordered">
+                <thead>
+                    <th>接口</th>
+                    <th>注释</th>
+                    <th>默认值</th>
+                </thead>
+
+                <tbody>
+                <% for(var i=0; i<params.length; i++) {%>
+
+                <tr class="form-group">
+                    <td><%=params[i].name%></td>
+                    <td>
+                        <input type="email" value="<%=params[i].value%>" class="form-control" id="inputEmail3" placeholder="Email">
+                    </td>
+                    <td>
+                        <input type="email" value="<%=params[i].remark%>" class="form-control" id="inputEmail3" placeholder="Email">
+                    </td>
+                </tr>
+                <% } %>
+
+                </tbody>
+            </table>
+
+
+            <button type="submit" class="btn btn-default">保存</button>
+
+        </form>
+    </div>
+</div>
+
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <% for(var i=0; i<results.length; i++) {%>
+        <div><%=results[i].name%></div>
+        <div body="<%=results[i].body%>" class="jsonbody"></div>
+        <% } %>
+
+
+        <table class="table">
+           <tbody>
+           <% for(var i=0; i<resultItems.length; i++) {%>
+            <tr>
+                <td><%=resultItems[i].name%></td>
+                <td><%=resultItems[i].remark%></td>
+            </tr>
+           <% } %>
+           </tbody>
+        </table>
+    </div>
+</div>

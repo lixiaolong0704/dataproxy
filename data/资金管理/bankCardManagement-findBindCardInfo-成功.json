@@ -1,0 +1,16 @@
+{
+  "data":{
+	"desc": "查询成功",
+	"status": "0",
+	"data": {
+	"cardHolder": "张俊伟",
+	"idCard": "12432324",
+	"bankCardNo": "34534534534534",
+	"phone": "张俊伟",
+	"createTime": "2016.2.12 12:12:45",
+	"bankName": "招商银行",
+	"id": "888888",
+	"BANK_PATH": ""
+	}
+  }
+}

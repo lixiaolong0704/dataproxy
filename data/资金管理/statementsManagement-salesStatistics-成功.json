@@ -1,0 +1,46 @@
+{
+  "data":{
+    "desc": "销售单统计查询成功",
+    "status": "0",
+    "data":{
+      "list": [
+        {
+          "createTime": "2015-09-06 10:07:44",
+          "endTime": "2016-09-06 10:07:44",
+          "settleTime": "2018-09-06 10:07:45",
+          "orderStatus": "0",
+          "orderPrice": "1",
+          "orderType": "10.00",
+          "orderId": "1980.00"
+        },
+        {
+          "createTime": "2015-09-06 10:07:44",
+          "endTime": "2016-09-06 10:07:44",
+          "settleTime": "2018-09-06 10:07:45",
+          "orderStatus": "9",
+          "orderPrice": "23",
+          "orderType": "10.00",
+          "orderId": "1980.00"
+        },
+        {
+          "createTime": "2015-09-06 10:07:44",
+          "endTime": "2016-09-06 10:07:44",
+          "settleTime": "2018-09-06 10:07:45",
+          "orderStatus": "0",
+          "orderPrice": "1",
+          "orderType": "10.00",
+          "orderId": "1980.00"
+        },
+        {
+          "createTime": "2015-09-06 10:07:44",
+          "endTime": "2016-09-06 10:07:44",
+          "settleTime": "2018-09-06 10:07:45",
+          "orderStatus": "9",
+          "orderPrice": "23",
+          "orderType": "10.00",
+          "orderId": "1980.00"
+        }
+      ]
+    }
+  }
+}

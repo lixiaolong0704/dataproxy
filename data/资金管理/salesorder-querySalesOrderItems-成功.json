@@ -1,0 +1,42 @@
+{
+  "data":{
+    "desc": "销售单详情查询成功",
+    "status": "0",
+    "data":{
+      "list|5": [
+        {
+          "condition": null,
+          "countSql": "",
+          "countSqlId": "",
+          "create_time": "2017-05-04 15:34:53.0",
+          "create_time1": "",
+          "create_time2": "",
+          "ds": "",
+          "end": 0,
+          "limit": 0,
+          "num": 1,
+          "order_id": "XS1017050415145907100000005",
+          "order_price": 3.9,
+          "order_status": 6,
+          "out_bound_order_id": "OUT_BATCH_NO1493882047421901",
+          "pay_order_id": "",
+          "pay_type": 0,
+          "real_price": 3.9,
+          "sku_name": "六必居 干酱@word(5)",
+          "sqlId": "",
+          "sku_norms": "一瓶",
+          "start": 0,
+          "user_id": "2"
+        }
+      ],
+      "obj":{
+        "order_id":"111111111",
+        "create_time":"2013.12.11 11:11:12",
+        "order_price":"123",
+        "num":"123",
+        "real_price":"111",
+        "pay_type":"1"
+      }
+    }
+  }
+}

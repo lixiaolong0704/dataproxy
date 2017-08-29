@@ -1,0 +1,27 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "查询用户信息成功",
+    "status": "0",
+    "totalCount":"30",
+    "data":[
+      {
+        "skuName": "商品1",
+        "skuBarcode": "",
+        "skuNorm": "",
+        "skuUnit": "",
+        "sellPrice": "",
+        "onlineStatus": ""
+      },
+      {
+        "skuName": "商品2",
+        "skuBarcode": "",
+        "skuNorm": "",
+        "skuUnit": "",
+        "sellPrice": "",
+        "onlineStatus": ""
+      }
+    ]
+  },
+  "sign": "ae21b6bc377b4dd669150dde4426f8c3"
+}

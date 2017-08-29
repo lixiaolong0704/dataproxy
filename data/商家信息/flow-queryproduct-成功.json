@@ -1,0 +1,110 @@
+{
+  "result": {
+    "productlist": {
+      "20M": [
+        {
+          "favourable": 0,
+          "flowType": 2,
+          "flowTypename": "本省",
+          "id": 60,
+          "marketingdesc": "",
+          "netType": 99,
+          "overlayType": 2,
+          "productId": "p0116111519061008",
+          "productdesc": "当月有效，月底失效,支持同一规格当月3次叠加,支持2G/3G/4G",
+          "productids": [],
+          "productname": "20M",
+          "productstatus": 0,
+          "productvalue": "3",
+          "realvalue": "2.85",
+          "validPeriod": 2,
+          "validType": 1
+        }
+      ],
+      "50M": [
+        {
+          "favourable": 0,
+          "flowType": 2,
+          "flowTypename": "本省",
+          "id": 61,
+          "marketingdesc": "",
+          "netType": 99,
+          "overlayType": 2,
+          "productId": "p0116111519061009",
+          "productdesc": "当月有效，月底失效,支持同一规格当月3次叠加,支持2G/3G/4G",
+          "productids": [],
+          "productname": "50M",
+          "productstatus": 0,
+          "productvalue": "6",
+          "realvalue": "5.7",
+          "validPeriod": 2,
+          "validType": 1
+        }
+      ],
+      "100M": [
+        {
+          "favourable": 0,
+          "flowType": 2,
+          "flowTypename": "本省",
+          "id": 62,
+          "marketingdesc": "",
+          "netType": 99,
+          "overlayType": 2,
+          "productId": "p0116111519061010",
+          "productdesc": "当月有效，月底失效,支持同一规格当月3次叠加,支持2G/3G/4G",
+          "productids": [],
+          "productname": "100M",
+          "productstatus": 0,
+          "productvalue": "10",
+          "realvalue": "9.5",
+          "validPeriod": 2,
+          "validType": 1
+        }
+      ],
+      "200M": [
+        {
+          "favourable": 0,
+          "flowType": 2,
+          "flowTypename": "本省",
+          "id": 63,
+          "marketingdesc": "",
+          "netType": 99,
+          "overlayType": 2,
+          "productId": "p0116111519061011",
+          "productdesc": "当月有效，月底失效,支持同一规格当月3次叠加,支持2G/3G/4G",
+          "productids": [],
+          "productname": "200M",
+          "productstatus": 0,
+          "productvalue": "15",
+          "realvalue": "14.25",
+          "validPeriod": 2,
+          "validType": 1
+        }
+      ],
+      "500M": [
+        {
+          "favourable": 0,
+          "flowType": 2,
+          "flowTypename": "本省",
+          "id": 64,
+          "marketingdesc": "",
+          "netType": 99,
+          "overlayType": 2,
+          "productId": "p0116111519061012",
+          "productdesc": "当月有效，月底失效,支持同一规格当月3次叠加,支持2G/3G/4G",
+          "productids": [],
+          "productname": "500M",
+          "productstatus": 0,
+          "productvalue": "30",
+          "realvalue": "28.5",
+          "validPeriod": 2,
+          "validType": 1
+        }
+      ]
+    },
+    "mobile": "18501908355",
+    "mobileinfo": "北京联通"
+  },
+  "desc": "成功",
+  "code": "0"
+}

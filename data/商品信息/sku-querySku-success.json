@@ -1,0 +1,19 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "新增商品成功",
+    "status": "0",
+    "data":{
+        "count":"1",
+        "skuName": "黄焖鸡",
+        "skuBarcode": "1243214",
+        "skuNorm": "234",
+        "skuUnit": "234",
+        "qualityPeriot": "234",
+        "sellPrice": "234",
+        "consultSellPrice": "234",
+        "skuMinNum": "34"
+      }
+  },
+  "sign": "ae21b6bc377b4dd669150dde4426f8c3"
+}

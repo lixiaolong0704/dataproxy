@@ -1,0 +1,19 @@
+{
+	"data": {
+
+		"data":{
+			"obj":{
+				"timestamp": "1500549855",
+				"platform": "web",
+				"noncestr": "cme76dz8yn8l2zy3",
+				"desc": "",
+				"appId": "wxdc3dd9c426037bdb",
+				"signature": "bc45f82734f4aab46ea926785f18f3d30069314c"
+			},
+			"orderid":"232323"
+
+		},
+		"status": "0"
+	},
+	"sign": "aafcd0164199465e0439b5dc57f7f428"
+}

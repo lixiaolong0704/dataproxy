@@ -1,0 +1,15 @@
+{
+  "data":{
+    "status": "0",
+    "desc": "asdsad",
+    "data": {
+      "user_name": "@cname()",
+      "user_phone": "131****1234",
+      "id_card": "140************1228",
+      "bank_card": "招商银行 尾号1234",
+      "settle_period": "T+2",
+      "scope": "零食 酒水 饮料"
+    }
+  }
+}
+

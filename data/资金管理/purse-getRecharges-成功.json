@@ -1,0 +1,49 @@
+{
+  "data":{
+    "status": "0",
+    "desc": "成功",
+    "totalrows": "3",
+    "itemdata": {
+      "reqOrderid": "EM201608230955873845",
+      "type": "206",
+      "createTime": "2016-08-23 09:55:08",
+      "money": "504.70",
+      "tradefee": "",
+      "status": "2",
+      "statusName": "处理中",
+      "pc_id": ""
+    },
+    "data": [
+      {
+        "reqOrderid": "EM201608230955873845",
+        "type": "206",
+        "createTime": "2016-08-23 09:55:08",
+        "money": "504.70",
+        "tradefee": "",
+        "status": "2",
+        "statusName": "处理中",
+        "pc_id": ""
+      },
+      {
+        "reqOrderid": "EM001608222030873195",
+        "type": "217",
+        "createTime": "2016-08-22 20:30:20",
+        "money": "0.01",
+        "tradefee": "0.00",
+        "status": "0",
+        "statusName": "成功",
+        "pc_id": "wechat"
+      },
+      {
+        "reqOrderid": "EM001608222029873194",
+        "type": "217",
+        "createTime": "2016-08-22 20:29:58",
+        "money": "0.01",
+        "tradefee": "0.00",
+        "status": "1",
+        "statusName": "失败",
+        "pc_id": "wechat"
+      }
+    ]
+  }
+}

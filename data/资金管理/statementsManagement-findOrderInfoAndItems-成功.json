@@ -1,0 +1,40 @@
+{
+  "data":{
+    "desc": "销售单详情查询成功",
+    "status": "0",
+    "data":{
+      "list": [
+        {
+          "skuCompressPath": "/ajsd/asd/asd",
+          "skuName": "加多宝",
+          "sellPrice": "4",
+          "num": "5",
+          "orderPrice": "20"
+        },
+        {
+          "skuCompressPath": "/ajsd/asd/asd",
+          "skuName": "老北京方便面",
+          "sellPrice": "4",
+          "num": "5",
+          "orderPrice": "20"
+        },
+        {
+          "skuCompressPath": "/ajsd/asd/asd",
+          "skuName": "大保健",
+          "sellPrice": "4",
+          "num": "5",
+          "orderPrice": "20"
+        }
+      ],
+      "order": {
+        "orderStatus": "0",
+        "salesPrice": "2500",
+        "createTime": "0",
+        "endTime": "0",
+        "settleTime": "0",
+        "orderType": "0",
+        "orderId": "222222"
+      }
+    }
+  }
+}

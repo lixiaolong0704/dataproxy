@@ -1,0 +1,36 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "查询成功",
+    "status": "0",
+    "data": [
+      {
+        "address": "",
+        "city_id": "110100",
+        "city_name": "北京市",
+        "condition": null,
+        "countSql": "",
+        "countSqlId": "",
+        "create_time": "",
+        "defualt_type": 0,
+        "ds": "",
+        "end": 0,
+        "id": 8,
+        "landline_tel": "0105858626",
+        "limit": 0,
+        "province_id": "110000",
+        "province_name": "北京市",
+        "receive_user": "老唐",
+        "recevice_phone": "13811073021",
+        "reveive_status": 0,
+        "sqlId": "",
+        "start": 0,
+        "update_time": "2017-06-05 11:57:10.0",
+        "user_id": "USER0117060511571023400000001",
+        "zone_id": "110108",
+        "zone_name": "海淀区"
+      }
+    ]
+  },
+  "sign": "5036f59a5980ab15a852b6079b073ae8"
+}

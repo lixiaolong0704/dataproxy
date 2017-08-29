@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/libs/bootstrap/css/bootstrap.min.css'/>
+
+    <script type="text/javascript" src='/libs/jquery-1.9.1.min.js'></script>
+    <script type="text/javascript" src='/libs/polyfill.js'></script>
+
+
+    <link rel='stylesheet' href='/libs/jsoneditor/jsoneditor.css'/>
+    <script type="text/javascript" src='/libs/jsoneditor/jsoneditor.min.js'></script>
+
+
+    <link rel='stylesheet' href='/libs/popup/popup.min.css'/>
+    <script type="text/javascript" src='/libs/Utility.js'></script>
+    <script type="text/javascript" src='/libs/popup/popup.js'></script>
+    <script type="text/javascript" src='/javascripts/index.js'></script>
+
+    <style>
+        .jsonbody {
+            display: block;
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+</head>
+<body>
+
+<% include header.ejs %>
+
+<div class="container intro">
+    <div class="row">
+        <div class="col-xs-4">
+
+            <div>
+                <button type="button" id="addtag" class="btn btn-primary">新增标签</button>
+                <button type="button" class="btn btn-primary">新增接口</button>
+            </div>
+
+            <table class="table table-bordered">
+                <tbody>
+                <% for(var i = 0; i < tags.length; i++) { %>
+                <tr class="list-group-item">
+                    <td><%= tags[i].name %></td>
+                    <td>
+
+
+                        <ul>
+
+                        <% if(tags[i].apis){
+                        for (var j = 0;j < tags[i].apis.length;j++){ %>
+                        <li><a href="javascript:void(0)" api-id="<%= tags[i].apis[j].id %>"
+                               class="api"><%= tags[i].apis[j].name %>-
+                                <!--<span><%= tags[i].apis[j].url %></span>&nbsp;<span><%= tags[i].apis[j].interfacecode %></span>-->
+                            </a></li>
+
+                        <% }} %>
+                        </ul>
+                    </td>
+
+                </tr>
+                <% } %>
+
+                </tbody>
+
+            </table>
+
+
+        </div>
+        <div class="col-xs-8">
+            <div class="panel panel-default">
+                <div class="panel-body" id="main">
+                    Basic panel example
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

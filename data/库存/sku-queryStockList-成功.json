@@ -1,0 +1,34 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "新增商品成功",
+    "status": "0",
+    "pagenum":"1",
+    "totalCount":"22",
+    "data": [
+      {
+        "count":"1",
+        "sku_name": "黄焖鸡",
+        "sku_barcode": "1243214",
+        "sku_norms": "234",
+        "sell_price": "234",
+        "online_status": "234",
+        "sell_numbers": "234",
+        "sku_min_num": "234",
+        "skuMinNum": "34"
+      },
+      {
+        "count":"1",
+        "sku_name": "霸王别姬",
+        "sku_barcode": "1243214",
+        "": "234",
+        "sell_price": "234",
+        "online_status": "234",
+        "sell_numbers": "234",
+        "sku_min_num": "234",
+        "skuMinNum": "34"
+      }
+    ]
+  },
+  "sign": "ae21b6bc377b4dd669150dde4426f8c3"
+}

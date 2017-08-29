@@ -1,0 +1,12 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "处理支付业务成功",
+    "status": "0",
+    "data": {
+      "desc": "支付失败",
+      "code": "1"
+    }
+  },
+  "sign": "b834f1b60d1e7760fdb20fe90ec8a785"
+}

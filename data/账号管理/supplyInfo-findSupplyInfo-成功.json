@@ -1,0 +1,15 @@
+{
+  "data": {
+    "status": "0",
+    "desc": "asdsad",
+    "data": {
+      "user_status": "0",
+      "company_name": "北京供应商~~",
+      "delivery_amount": ["0","100"],
+      "is_cod": "",
+      "management_area": "",
+      "management_areas": [
+      ]
+    }
+  }
+}

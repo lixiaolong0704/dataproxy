@@ -1,0 +1,43 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "查询销售商品成功",
+    "status": "0",
+    "data": {
+      "resule|3": [
+        {
+          "brand_id": "120330", //abc
+          "brand_name": "红牛",
+          "cate_id_1": "D18252",
+          "cate_id_2": "D18601",
+          "cate_id_3": "D18887",
+          "condition": null,
+          "consult_sell_price": 0,
+          "countSql": "",
+          "countSqlId": "",
+          "create_time": "2017-05-31 20:12:45.0",
+          "ds": "",
+          "end": 0,
+          "limit": 0,
+          "remark": "",
+          "sell_price": 10,
+          "sku_barcode": "6920202888883",
+          "sku_compress_path": "/upload/init/yasuo/t1/2012/0806/323/135/503286ca3e3f7b51YY_380x380.jpg",
+          "sku_full_name": "红牛 维生素功能饮料(原味)",
+          "sku_id": "156782",
+          "sku_img_path": "@image('200x100')",
+          "sku_name": "红牛 维生素功能饮料(原味)",
+          "sku_norm_price": 5.3,
+          "sku_norms": "250ml/罐",
+          "sku_status": 0,
+          "sku_type": 0,
+          "sqlId": "",
+          "start": 0,
+          "user_id": "",
+          "user_type": 0
+        }
+      ]
+    }
+  },
+  "sign": "01017defc3f3ed083461e668c61e6d70"
+}

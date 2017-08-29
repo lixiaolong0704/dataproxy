@@ -1,0 +1,44 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "查询销售商品成功",
+    "status": "0",
+    "data": {
+      "resule": [{
+        "brand_id": "",
+        "brand_name": "",
+        "cate_id_1": "A17061520324594800000003",
+        "cate_id_2": "B17061520335946100000058",
+        "cate_id_3": "C17061520335949200000094",
+        "condition": null,
+        "consult_sell_price": 0.01,
+        "countSql": "",
+        "countSqlId": "",
+        "create_time": "2017-06-19 15:53:02.0",
+        "ds": "",
+        "end": 0,
+        "limit": 0,
+        "remark": "",
+        "sell_numbers": 0,
+        "sell_price": "@pick(1,5)",
+        "sku_barcode": "6921581540270",
+        "sku_compress_path": "/bl/store/upload/refund/USER0117061417131239200000002/refund101706191546370001.jpg",
+        "sku_full_name": "利趣拿铁咖啡饮料",
+//        "sku_id": "zdysp201706191551540001",
+        "sku_id": "@word(5)",
+        "sku_img_path": "/bl/store/upload/refund/USER0117061417131239200000002/refund101706191546370001.jpg",
+        "sku_min_num": 0,
+        "sku_name": "利趣拿铁咖啡饮料",
+        "sku_norm_price": 0,
+        "sku_norms": "480ml/瓶",
+        "sku_status": 0,
+        "sku_type": 0,
+        "sqlId": "",
+        "start": 0,
+        "user_id": "",
+        "user_type": 0
+      }]
+    }
+  },
+  "sign": "e20c76098dfeab512e96693e82bf3b3d"
+}

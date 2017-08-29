@@ -1,0 +1,110 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "查询退货单成功",
+    "status": "0",
+    "data": {
+      "imgs": [
+        {
+          "condition": null,
+          "countSql": "",
+          "countSqlId": "",
+          "create_time": "2017-05-11 19:17:37.0",
+          "ds": "",
+          "end": 0,
+          "id": "30",
+          "img_type": 0,
+          "img_url": "/image/order/gooddefault.png",
+          "limit": 0,
+          "refund_order_id": "SRO1017051119173762000000002",
+          "sqlId": "",
+          "start": 0
+        },
+        {
+          "condition": null,
+          "countSql": "",
+          "countSqlId": "",
+          "create_time": "2017-05-11 19:17:37.0",
+          "ds": "",
+          "end": 0,
+          "id": "30",
+          "img_type": 0,
+          "img_url": "/image/order/gooddefault.png",
+          "limit": 0,
+          "refund_order_id": "SRO1017051119173762000000002",
+          "sqlId": "",
+          "start": 0
+        },
+        {
+          "condition": null,
+          "countSql": "",
+          "countSqlId": "",
+          "create_time": "2017-05-11 19:17:37.0",
+          "ds": "",
+          "end": 0,
+          "id": "30",
+          "img_type": 0,
+          "img_url": "/image/order/gooddefault.png",
+          "limit": 0,
+          "refund_order_id": "SRO1017051119173762000000002",
+          "sqlId": "",
+          "start": 0
+        }
+      ],
+      "list": [
+        {
+          "condition": null,
+          "countSql": "",
+          "countSqlId": "",
+          "create_time": "2017-05-11 19:17:37.0",
+          "ds": "",
+          "end": 0,
+          "item_id": "RI1017051119173763300000002",
+          "limit": 0,
+          "num": 3,
+          "order_id": "SRO1017051119173762000000002",
+          "order_price": 9,
+          "remark": "",
+          "sku_id": "3",
+          "sku_name": "测试商品1",
+          "sqlId": "",
+          "start": 0
+        }
+      ],
+      "obj": {
+        "address": "",
+        "condition": null,
+        "countSql": "",
+        "countSqlId": "",
+        "create_time": "2017-05-11 19:17:37.0",
+        "create_time1": "",
+        "create_time2": "",
+        "ds": "00003",
+        "end": 0,
+        "es_user_id": "2",
+        "es_user_name": "",
+        "limit": 0,
+        "order_id": "SRO1017051119173762000000002",
+        "phone": "",
+        "purchase_order_id": "4",
+        "receive_landline_tel": "",
+        "refund_batch_no": "",
+        "refund_explain": "阿萨德",
+        "refund_num": 1,
+        "refund_price": 1,
+        "refund_reason": "质量问题",
+        "refund_status": 8,
+        "refund_time": "",
+        "refund_type": "1",
+        "refund_user": "",
+        "remark": "",
+        "send_goods_type": -1,
+        "service_type": "0",
+        "sqlId": "queryRefundOrderInfoItems",
+        "start": 0,
+        "user_id": "2"
+      }
+    }
+  },
+  "sign": "dd4c03c0ea13c8ef46595ceb3b443397"
+}

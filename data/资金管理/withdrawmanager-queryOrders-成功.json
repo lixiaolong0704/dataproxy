@@ -1,0 +1,62 @@
+{
+  "data": {
+    "platform": "1",
+    "desc": "查询提现记录列表成功!",
+    "status": "0",
+    "data": {
+      "total": 2,
+      "list": [
+        {
+          "bas_no": "213124213",
+          "amount": "2000",
+          "fee": "5",
+          "bank_card_no": "3425345345",
+          "phone": "13833910618",
+          "id_card": "130528199302088417",
+          "user_name": "孙雷博",
+          "create_time": "12.12.30 12:12:31",
+          "status": "0",
+          "bank_name": "招商银行"
+        },
+        {
+          "bas_no": "213124213",
+          "amount": "2000",
+          "fee": "5",
+          "bank_card_no": "3425345345",
+          "phone": "13833910618",
+          "id_card": "130528199302088417",
+          "user_name": "孙雷博",
+          "create_time": "12.12.30 12:12:31",
+          "status": "1",
+          "bank_name": "招商银行"
+        },
+        {
+          "bas_no": "213124213",
+          "amount": "2000",
+          "fee": "5",
+          "bank_card_no": "3425345345",
+          "phone": "13833910618",
+          "id_card": "130528199302088417",
+          "user_name": "孙雷博",
+          "create_time": "12.12.30 12:12:31",
+          "status": "2",
+          "bank_name": "招商银行"
+        },
+        {
+          "bas_no": "213124213",
+          "amount": "2000",
+          "fee": "5",
+          "bank_card_no": "3425345345",
+          "phone": "13833910618",
+          "id_card": "130528199302088417",
+          "user_name": "孙雷博",
+          "create_time": "12.12.30 12:12:31",
+          "status": "65",
+          "bank_name": "招商银行"
+        }
+
+      ]
+    }
+  },
+  "sign": "77672ac5b38344afb79fd00a8bf4041c"
+}

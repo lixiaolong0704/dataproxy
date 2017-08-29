@@ -1,0 +1,12 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "交易成功",
+    "status": "0",
+    "data": {
+      "pay_type": "0",
+      "order_id": "XS1017061322344915000000001"
+    }
+  },
+  "sign": "f5d7cdf30d328e2d8b049fa00ea71813"
+}

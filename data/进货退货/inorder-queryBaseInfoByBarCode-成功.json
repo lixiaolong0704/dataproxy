@@ -1,0 +1,43 @@
+{
+  "data": {
+    "data": {
+      "resuleList": [
+        {
+          "brand_id": "115219",
+          "brand_name": "绿箭",
+          "cate_id_1": "A17061515005848700000010",
+          "cate_id_2": "B17061515005851800000010",
+          "cate_id_3": "C17061515005854900000010",
+          "condition": null,
+          "consult_sell_price": 11,
+          "countSql": "",
+          "countSqlId": "",
+          "create_time": "2017-06-15 15:00:10.0",
+          "ds": "",
+          "end": 0,
+          "limit": 0,
+          "remark": "",
+          "sell_price": 881,
+          "sku_barcode": "6923450605981",
+          "sku_compress_path": "/upload/init/yasuo/N01/M07/5F/08/CgQCrlGbPPmANblmAAGCgyOAeRM44400_380x380.jpg",
+          "sku_full_name": "绿箭 薄荷糖茉莉花茶",
+          "sku_id": "156570",
+          "sku_img_path": "/upload/init/yasuo/N01/M07/5F/08/CgQCrlGbPPmANblmAAGCgyOAeRM44400_380x380.jpg",
+          "sku_name": "绿箭 薄荷糖茉莉花茶",
+          "sku_norm_price": 0,
+          "sku_norms": "34g/盒",
+          "sku_status": 0,
+          "sku_type": 0,
+          "sqlId": "",
+          "start": 0,
+          "user_id": "",
+          "user_type": 0
+        }
+      ]
+    },
+    "platform": "web",
+    "status": "0",
+    "desc": "查询商品成功"
+  },
+  "sign": "6f306880f9f65edcc5342952cc3bff3c"
+}

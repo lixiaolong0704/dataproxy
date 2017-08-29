@@ -1,0 +1,118 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "查询成功",
+    "status": "0",
+    "data": [
+      {
+        "skuList": [
+          {
+            "createTime": "20170512100728",
+            "skuId": "156605",
+            "skuImg": "",
+            "skuName": "心相印 经典二层软抽",
+            "skuNum": 2,
+            "skuPrice": 24.9,
+            "storeId": "2",
+            "suppluUserId": "2",
+            "suppluUserName": "",
+            "totalPrice": 49.8
+          },
+          {
+            "createTime": "20170511155010",
+            "skuId": "156571",
+            "skuImg": "",
+            "skuName": "相宜本草 黑茶男士控油洁面泥",
+            "skuNum": 4,
+            "skuPrice": 34.99,
+            "storeId": "2",
+            "suppluUserId": "2",
+            "suppluUserName": "",
+            "totalPrice": 139.96
+          },
+          {
+            "createTime": "20170512100908",
+            "skuId": "156549",
+            "skuImg": "",
+            "skuName": "克林莱 铝箔纸",
+            "skuNum": 5,
+            "skuPrice": 15.8,
+            "storeId": "2",
+            "suppluUserId": "2",
+            "suppluUserName": "",
+            "totalPrice": 79
+          },
+          {
+            "createTime": "20170509191958",
+            "skuId": "156548",
+            "skuImg": "",
+            "skuName": "德芙 牛奶巧克力",
+            "skuNum": 2,
+            "skuPrice": 13.5,
+            "storeId": "2",
+            "suppluUserId": "2",
+            "suppluUserName": "",
+            "totalPrice": 27
+          }
+        ],
+        "supplyUserId": "2",
+        "supplyUserName": "李连辉的店铺"
+      },
+      {
+        "skuList": [
+          {
+            "createTime": "20170512100728",
+            "skuId": "156605",
+            "skuImg": "",
+            "skuName": "心相印 经典二层软抽",
+            "skuNum": 2,
+            "skuPrice": 24.9,
+            "storeId": "2",
+            "suppluUserId": "3",
+            "suppluUserName": "",
+            "totalPrice": 49.8
+          },
+          {
+            "createTime": "20170511155010",
+            "skuId": "156571",
+            "skuImg": "",
+            "skuName": "相宜本草 黑茶男士控油洁面泥",
+            "skuNum": 4,
+            "skuPrice": 34.99,
+            "storeId": "2",
+            "suppluUserId": "3",
+            "suppluUserName": "",
+            "totalPrice": 139.96
+          },
+          {
+            "createTime": "20170512100908",
+            "skuId": "156549",
+            "skuImg": "",
+            "skuName": "克林莱 铝箔纸",
+            "skuNum": 5,
+            "skuPrice": 15.8,
+            "storeId": "2",
+            "suppluUserId": "3",
+            "suppluUserName": "",
+            "totalPrice": 79
+          },
+          {
+            "createTime": "20170509191958",
+            "skuId": "156548",
+            "skuImg": "",
+            "skuName": "德芙 牛奶巧克力",
+            "skuNum": 2,
+            "skuPrice": 13.5,
+            "storeId": "2",
+            "suppluUserId": "3",
+            "suppluUserName": "",
+            "totalPrice": 27
+          }
+        ],
+        "supplyUserId": "3",
+        "supplyUserName": "李连辉的店铺2"
+      }
+    ]
+  },
+  "sign": "9ccefd6698c814730792a1a1ae765e7b"
+}

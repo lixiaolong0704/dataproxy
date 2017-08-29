@@ -1,0 +1,42 @@
+{
+  "desc": "查询成功",
+  "status": "0",
+  "data": [
+    {
+      "skuList": [
+        {
+          "createTime": "20170508200944",
+          "skuId": "SKU123",
+          "skuImg": "http://118.244.193.49:18912/upload/elifesku/10070/10071/20150829021748/skucompress201508280217000030.jpg",
+          "skuName": "糖",
+          "skuNum": 12,
+          "skuPrice": 2,
+          "storeId": "1",
+          "suppluUserId": "ESG4444444",
+          "suppluUserName": "李连辉",
+          "totalPrice": 24
+        }
+      ],
+      "supplyUserId": "ESG4444444",
+      "supplyUserName": "李连辉的铺子1"
+    },
+    {
+      "skuList": [
+        {
+          "createTime": "20170508200430",
+          "skuId": "SKU123",
+          "skuImg": "http://118.244.193.49:18912/upload/elifesku/10070/10071/20150829021748/skucompress201508280217000030.jpg",
+          "skuName": "糖",
+          "skuNum": 12,
+          "skuPrice": 2,
+          "storeId": "1",
+          "suppluUserId": "ESG222222",
+          "suppluUserName": "李连辉",
+          "totalPrice": 24
+        }
+      ],
+      "supplyUserId": "ESG222222",
+      "supplyUserName": "李连辉的铺子2"
+    }
+  ]
+}

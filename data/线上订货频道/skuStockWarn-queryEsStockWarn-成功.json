@@ -1,0 +1,16 @@
+{
+  "data": {
+    "platform": "web",
+    "desc": "库存预警列表显示成功",
+    "status": "0",
+    "data": {
+      "total": 0,
+      "platform": {
+        "platform": "web"
+      },
+      "list": [
+      ]
+    }
+  },
+  "sign": "8c7f90bb71bc290151d653a576150c32"
+}

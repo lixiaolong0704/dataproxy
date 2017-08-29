@@ -1,0 +1,78 @@
+{
+  "data":{
+    "desc": "查询成功",
+    "status": "0",
+    "data":{
+      "totalrows":"21",
+      "balance":"2000",
+      "rmbfrozenamount":"2000",
+      "cashoutbalance":"100",
+      "settleBalance":"3000",
+      "data": [
+        {
+          "appSno": "WB20160906101710",
+          "tradeTime": "2016-09-06 10:07:44",
+          "trSubcode": "102",
+          "tradeMsg": "陕西联通5分钟快充100元",
+          "tradeType": "1",
+          "tradeAmount": "10.00",
+          "sumBalance": "1980.00"
+        },
+        {
+          "appSno": "WB20160906101710",
+          "tradeTime": "2016-09-06 10:07:44",
+          "trSubcode": "102",
+          "tradeMsg": "陕西联通5分钟快充100元",
+          "tradeType": "1",
+          "tradeAmount": "10.00",
+          "sumBalance": "1980.00"
+        },
+        {
+          "appSno": "WB20160906101710",
+          "tradeTime": "2016-09-06 10:07:44",
+          "trSubcode": "102",
+          "tradeMsg": "陕西联通5分钟快充100元",
+          "tradeType": "1",
+          "tradeAmount": "10.00",
+          "sumBalance": "1980.00"
+        },
+        {
+          "appSno": "WB20160906101710",
+          "tradeTime": "2016-09-06 10:07:44",
+          "trSubcode": "102",
+          "tradeMsg": "陕西联通5分钟快充100元",
+          "tradeType": "1",
+          "tradeAmount": "10.00",
+          "sumBalance": "1980.00"
+        },
+        {
+          "appSno": "WB20160906101710",
+          "tradeTime": "2016-09-06 10:07:44",
+          "trSubcode": "102",
+          "tradeMsg": "陕西联通5分钟快充100元",
+          "tradeType": "1",
+          "tradeAmount": "10.00",
+          "sumBalance": "1980.00"
+        },
+        {
+          "appSno": "WB20160906101710",
+          "tradeTime": "2016-09-06 10:07:44",
+          "trSubcode": "102",
+          "tradeMsg": "陕西联通5分钟快充100元",
+          "tradeType": "1",
+          "tradeAmount": "10.00",
+          "sumBalance": "1980.00"
+        },
+        {
+          "appSno": "WB20160906101710",
+          "tradeTime": "2016-09-06 10:07:44",
+          "trSubcode": "102",
+          "tradeMsg": "陕西联通5分钟快充100元",
+          "tradeType": "1",
+          "tradeAmount": "10.00",
+          "sumBalance": "1980.00"
+        }
+      ]
+    }
+  }
+}

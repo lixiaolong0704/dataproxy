@@ -1,0 +1,10 @@
+{
+  "data":{
+    "desc": "今日销售统计查询成功",
+    "status": "0",
+    "data":{
+      "totalCount":"6666",
+      "totalPrice":"8888"
+    }
+  }
+}

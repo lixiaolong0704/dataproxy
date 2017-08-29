@@ -1,0 +1,11 @@
+{
+  "data": {
+    "platform": "web",
+    "userphone": "17319019692",
+    "desc": "该用户已经被注册",
+    "status": "1",
+    "interfacecode": "sendAuthenticationCode",
+    "key": "123456789"
+  },
+  "sign": "502f2341a86a39ee49bb4a3e914f17ad"
+}

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "data": {
+      "balance": "2",
+      "rmbfrozenamount": "-1",
+      "cashoutbalance": "-1"
+    },
+    "platform": "web",
+    "status": "0",
+    "desc": "获取账户余额成功"
+  },
+  "sign": "255363156f252a302e9bdc717c88f150"
+}

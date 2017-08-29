@@ -1,0 +1,34 @@
+{
+  "data": {
+    "data|2": [
+      {
+        "skuList|2": [
+          {
+            "createTime": "20170610221855",
+            "skuId": "156570",
+            "skuImg": "/upload/init/yasuo/N01/M07/5F/08/CgQCrlGbPPmANblmAAGCgyOAeRM44400_380x380.jpg",
+            "skuName": "绿箭 薄@cword(5)",
+            "skuNorm": "34g/盒",
+            "skuNum": 18,
+            "skuPrice": 13,
+            "skuType": "2",
+            "storeId": "2",
+            "suppluUserId": "2",
+            "suppluUserName": "",
+            "totalPrice": 234,
+            "delivery_num":"5"
+          }
+
+        ],
+        "supplyUserId": "2",
+        "supplyUserName": "@cname(3)用品超市",
+        "deliveryAmount": "300",
+        "is_cod": "1"
+      }
+    ],
+    "platform": "web",
+    "status": "0",
+    "desc": "查询成功"
+  },
+  "sign": "04451c05b107036ede48a36427390c3f"
+}
