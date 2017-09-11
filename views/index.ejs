@@ -32,57 +32,10 @@
 </head>
 <body>
 
-<% include header.ejs %>
+
 
 <div class="container intro">
-    <div class="row">
-        <div class="col-xs-4">
-
-            <div>
-                <button type="button" id="addtag" class="btn btn-primary">新增标签</button>
-                <button type="button" class="btn btn-primary">新增接口</button>
-            </div>
-
-            <table class="table table-bordered">
-                <tbody>
-                <% for(var i = 0; i < tags.length; i++) { %>
-                <tr class="list-group-item">
-                    <td><%= tags[i].name %></td>
-                    <td>
-
-
-                        <ul>
-
-                        <% if(tags[i].apis){
-                        for (var j = 0;j < tags[i].apis.length;j++){ %>
-                        <li><a href="javascript:void(0)" api-id="<%= tags[i].apis[j].id %>"
-                               class="api"><%= tags[i].apis[j].name %>-
-                                <!--<span><%= tags[i].apis[j].url %></span>&nbsp;<span><%= tags[i].apis[j].interfacecode %></span>-->
-                            </a></li>
-
-                        <% }} %>
-                        </ul>
-                    </td>
-
-                </tr>
-                <% } %>
-
-                </tbody>
-
-            </table>
-
-
-        </div>
-        <div class="col-xs-8">
-            <div class="panel panel-default">
-                <div class="panel-body" id="main">
-                    Basic panel example
-                </div>
-            </div>
-
-        </div>
-
-    </div>
+    abc
 
 </div>
 

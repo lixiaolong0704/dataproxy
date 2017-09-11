@@ -6,29 +6,30 @@ var async = require("async");
 /* GET home page. */
 router.get('/', function (req, res, next) {
     //console.log(dbhelper);
-    var _dbhelper = new dbhelper();
-    _dbhelper.query("select * from a_tag", function (rows) {
-        async.every(rows, function (row, callback) {
-            _dbhelper = new dbhelper();
-            _dbhelper.query("SELECT * FROM a_api a INNER JOIN api_tag_rel t ON a.id = t.api_id AND  t.tag_id = " + row.id, function (apis) {
-
-                //console.log(apis);
-                row.apis = apis;
-                callback(null, true);
-
-            });
-            //fs.access(filePath, function(err) {
-            //    callback(null, !err)
-            //});
-        }, function (err, result) {
-            // if result is true then every file exists
-            console.log(rows);
-            res.render('index', {title: 'API系统', tags: rows});
-        });
-
-
-    });
-    //res.render('index', {nav_active :"home", title: '茉莉英语',categories:null});
+    // var _dbhelper = new dbhelper();
+    // _dbhelper.query("select * from a_tag", function (rows) {
+    //     async.every(rows, function (row, callback) {
+    //         _dbhelper = new dbhelper();
+    //         _dbhelper.query("SELECT * FROM a_api a INNER JOIN api_tag_rel t ON a.id = t.api_id AND  t.tag_id = " + row.id, function (apis) {
+    //
+    //             //console.log(apis);
+    //             row.apis = apis;
+    //             callback(null, true);
+    //
+    //         });
+    //         //fs.access(filePath, function(err) {
+    //         //    callback(null, !err)
+    //         //});
+    //     }, function (err, result) {
+    //         // if result is true then every file exists
+    //         console.log(rows);
+    //         res.render('index', {title: 'API系统', tags: rows});
+    //     });
+    //
+    //
+    // });
+    console.log("....abc......");
+    res.render('index', {nav_active :"home", title: '茉莉英语',categories:null});
 });
 router.post('/detail', function (req, res, next) {
 
