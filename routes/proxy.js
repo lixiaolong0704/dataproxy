@@ -6,6 +6,8 @@ var request = require('request');
 var _ = require('underscore');
 // const { console } = require('console');
 var Mock = require('mockjs')
+var path  = require('path');
+var {dataPathRoot} = require('../config');
 router.get('/', function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
 
@@ -13,16 +15,38 @@ router.get('/', function (req, res, next) {
     res.send("hello");
 
 });
+router.all('/xx', function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,DELETE");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token");
+    res.setHeader("Content-Type", "application/json;charset=UTF-8");
+    console.log("************************************");
+    console.log(req.headers);
+ 
+  
+ 
+    res.send("");
+    return;
+    
+ 
+ 
+
+});
+
 router.all('/server/:url', function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,DELETE");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token");
-  
+    // res.setHeader("Content-Type", "text/javascript;charset=UTF-8");
+
+    console.log(".......................********************");
+    // console.log(req.headers);
     // console.log(".......................********************");
     // console.log(req.body);
     var url = decodeURIComponent(req.params.url);
     var mm=req.method;
 
+    // console.log("......"+mm);
     // var xx = Object.assign({
     //     a:mm
     // })
@@ -52,16 +76,30 @@ router.all('/server/:url', function (req, res, next) {
         return;
     }
  
+    // url="http://127.0.0.1:3000/proxy/xx"
     var abc={
         uri:url,
-        form: req.body,
+        // form: req.body,
+        body:req.body,
         method:mm,
+        json:true,
         // method:req.method.toUpperCase()+"",
+        // multipart:
+        // [ 
+        //     { 'content-type': 'application/json;charset=UTF-8'
+ 
+        //   }
+        
+        // ],
+        // "content-type":"application/json;charset=UTF-8",
         headers: {
+            "content-type":"application/json",
             'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaWduaW5fdGltZSI6MTUwNDU5NzI0ODA0MywidWlkIjoiNTlhZGZlZjA5OWNiZDYwZGEwZGMwZjBkIiwiaXNzIjoiZGF0YWRlY2siLCJpYXQiOjE1MDQ1OTcyNDgsInRpZCI6IjU5YWRmZWYwOTljYmQ2MGRhMGRjMGYwYyJ9.muy-rbCJpKpFjqx2dycdzAptpgA_BpS888wjG1WCyIg'
         }
     };
+    // eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaWduaW5fdGltZSI6MTUwNDU5NzI0ODA0MywidWlkIjoiNTlhZGZlZjA5OWNiZDYwZGEwZGMwZjBkIiwiaXNzIjoiZGF0YWRlY2siLCJpYXQiOjE1MDQ1OTcyNDgsInRpZCI6IjU5YWRmZWYwOTljYmQ2MGRhMGRjMGYwYyJ9.muy-rbCJpKpFjqx2dycdzAptpgA_BpS888wjG1WCyIg
     // console.log(url+"**"+mm+"**"+abc.method);
+    
     request(abc, function (err, response, body) {
 
         // 
@@ -71,10 +109,15 @@ router.all('/server/:url', function (req, res, next) {
             try{
                 res.json(JSON.parse(body));
             }catch(e){
+                console.log("............................<");
+                console.log(abc.uri);
+                console.log(body);
+                console.log("............................>");
                 console.log("response json format error");
                 res.send("");
             }
         }else{
+            console.log(body);
             console.log("response null");
             res.send("");
         }
@@ -135,6 +178,7 @@ router.all('/static/:folder/:filename/:postParamsNameFileName*?', function (req,
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token");
 
 
+
     //var f ='E:/work/19EStore/WebRoot/src/data/'+req.params.folder +"/"+req.params.filename+".json";
     if (req.params.postParamsNameFileName) {
         // console.log("参数配置:" + req.params.postParamsNameFileName);
@@ -145,10 +189,12 @@ router.all('/static/:folder/:filename/:postParamsNameFileName*?', function (req,
     var exec = function () {
         var delay = 0, f;
         var arr = req.params.filename.split("&");
+
+        // console.log(dataPathRoot);
         if (arr.length === 1) {
-            f = './data/' + req.params.folder + "/" +  decodeURIComponent(req.params.filename) + ".json";
+            f =path.join(dataPathRoot, req.params.folder + "/" +  decodeURIComponent(req.params.filename) + ".json");
         } else {
-            f = './data/' + req.params.folder + "/" + decodeURIComponent(arr[0]) + ".json";
+            f =path.join(dataPathRoot,  req.params.folder + "/" + decodeURIComponent(arr[0]) + ".json"); 
             delay = parseInt(arr[1]);
         }
 

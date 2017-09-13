@@ -1,0 +1,49 @@
+{
+  "code": "200",
+  "message": "",
+  "data": {
+    "tables": [
+      {
+        "id": "167ad33d-c772-4fb4-9646-855655a8bf0f",
+        "code": "167ad33d-c772-4fb4-9646-855655a8bf0f",
+        "name": "工作表1",
+        "headType": "row",
+        "colSum": "3",
+        "rowSum": "7",
+        "headIndex": 0,
+        "ignoreRow": [],
+        "ignoreRowStart": 1,
+        "ignoreRowEnd": 0,
+        "ignoreCol": [],
+        "ignoreColStart": null,
+        "ignoreColEnd": null,
+        "headMode": "assign",
+        "list|6": [
+          [
+            {
+              "value": "@word()"
+            },
+            {
+              "value": "@word()"
+            },
+            {
+              "value": "@word()"
+            },
+            {
+              "value": "@word()"
+            },
+            {
+              "value": "@word()"
+            }
+          ]
+        ]
+      }
+    ],
+    "dsId": 6,
+    "connectionId": "7a41a322-f426-4b20-aec5-80d09f55d02a",
+    "sourceId": "da466af7-5547-466a-90b9-519703cb8641",
+    "uid": 1000032,
+    "name": "无标题电子表格"
+  },
+  "dataVersion": null
+}

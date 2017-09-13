@@ -1,0 +1,10 @@
+{
+  "code": 200,
+  "msg": null,
+  "data":{
+    "title|5":["@word()"],
+    "data|10":[
+
+    ]
+  }
+}

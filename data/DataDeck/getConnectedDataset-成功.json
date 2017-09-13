@@ -1,0 +1,10 @@
+{
+  "code": 200,
+  "msg": null,
+  "data|100":[
+    {
+      "id":"@uuid()",
+      "name":"@word()"
+    }
+  ]
+}

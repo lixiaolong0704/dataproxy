@@ -1,0 +1,80 @@
+{
+  "code": 2,
+  "data": {
+    "colSum": 2,
+    "columns": [
+      {
+        "columnType": "STRING",
+        "dataFormat": "",
+        "dataType": 1,
+        "displayDataType": 1,
+        "index": true,
+        "name": "dept_no",
+        "ordinalPosition": 1,
+        "primaryKey": true,
+        "remarks": "",
+        "status": 0,
+        "type": 0
+      },
+      {
+        "columnType": "STRING",
+        "dataFormat": "",
+        "dataType": 12,
+        "displayDataType": 12,
+        "index": true,
+        "name": "dept_name",
+        "ordinalPosition": 2,
+        "primaryKey": false,
+        "remarks": "",
+        "status": 0,
+        "type": 0
+      }
+    ],
+    "data": [
+      [
+        "dept_no",
+        "dept_name"
+      ],
+      [
+        "d009",
+        "Customer Service"
+      ],
+      [
+        "d005",
+        "Development"
+      ],
+      [
+        "d002",
+        "Finance"
+      ],
+      [
+        "d003",
+        "Human Resources"
+      ],
+      [
+        "d001",
+        "Marketing"
+      ],
+      [
+        "d004",
+        "Production"
+      ],
+      [
+        "d006",
+        "Quality Management"
+      ],
+      [
+        "d008",
+        "Research"
+      ],
+      [
+        "d007",
+        "Sales"
+      ]
+    ],
+    "name": "departments",
+    "rowCount": 9,
+    "status": 0,
+    "type": 0
+  }
+}
