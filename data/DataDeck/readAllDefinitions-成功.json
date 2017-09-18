@@ -1,0 +1,100 @@
+{
+  "code": 200,
+  "msg": null,
+  "data|12": [
+    {
+      "dataSourceCode": "@pick(['doubleclickCompound','standardRedshift'])",
+      "description": null,
+      "type": "file",
+      "name": "@pick(['excel'])",
+      //google driver'
+
+      "dataSourceCode": "@pick(['doubleclickCompound','standardRedshift'])",
+      "description": null,
+      "type": "@pick(['cloudapp','database','etl'])",
+      "name": "@type @word()",
+      //as
+      "itemList|2": [
+        //输入框
+        {
+          "title": "@title(5)",
+          "placeholder": "fill input @title(5)",
+          "inputType": "text",
+          "name": "name@word()",
+          "isAuthParam": true,
+          "validation": {
+            "required": [
+              "哈哈"
+            ],
+            "maxlength": [
+              null,
+              10
+            ]
+          },
+          "authParamName": "client_id",
+          "defaultValue": "@word(5)"
+        },
+        //输入框
+        {
+          "title": "@title(5)",
+          "placeholder": "fill input @title(5)",
+          "inputType": "tree",
+          "name": "name@word()",
+          "isAuthParam": true,
+          "data|4-6": [
+            {
+              "child": [
+                {
+                  "extra": null,
+                  "id": "2323",
+                  "leaf": false,
+                  "name": "@word().xlsx",
+                  "parent": null
+                }
+              ],
+              "extra": null,
+              "id": "@id()",
+              "leaf": false,
+              "name": "@word()",
+              "parent": null
+            }
+          ],
+          "validation": {
+            "required": [
+              "哈哈"
+            ]
+          },
+          "authParamName": "client_id",
+          "defaultValue": "@word(5)"
+        },
+        //单项select下拉列表
+        {
+          "title": "@title(5)",
+          "placeholder": "fill input @title(5)",
+          "inputType": "select",
+          "name": "name@word()",
+          "data|3-6": [
+            //select 特有的的下拉列表 数据源
+            {
+              "code": "@id()",
+              "name": "@word()"
+            }
+          ],
+          "keys": {
+            "label": "name",
+            "value": "code"
+          },
+          "isAuthParam": true,
+          "validation": {
+            "required": [
+              "哈哈"
+            ]
+          },
+          "authParamName": "client_id",
+          "defaultValue": "@word(5)"
+        }
+      ]
+
+    }
+  ]
+}

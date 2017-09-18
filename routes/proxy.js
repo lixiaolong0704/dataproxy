@@ -34,7 +34,12 @@ router.all('/xx', function (req, res, next) {
 });
 
 router.all('/server/:url', function (req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', '*');
+    // res.setHeader('Access-Control-Allow-Origin', '*');
+
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5555');
+    
+    res.header("Access-Control-Allow-Credentials", "true");
+
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,DELETE");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token");
     // res.setHeader("Content-Type", "text/javascript;charset=UTF-8");
@@ -172,10 +177,11 @@ return str.replace(RE_BLOCKS, function (match, mlc, slc) {
 console.log("start .......");
 /* GET users listing. */
 router.all('/static/:folder/:filename/:postParamsNameFileName*?', function (req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5555');
+   
+    res.header("Access-Control-Allow-Credentials", "true");
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,DELETE");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token,SpaceId");
 
 
 

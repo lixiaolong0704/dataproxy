@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "msg": null,
+  "data|5": [
+    {
+      "code": "ga@id()",
+      "name": "@name()",
+      "description": null,
+      "authConfig": {
+        "url": "https://accounts.google.com/o/oauth2/v2/auth",
+        "method": "POST",
+        "items": [
+          {
+            "title": "Client ID",
+            "placeholder": "请填写Client ID",
+            "inputType": "text",
+            "name": "clientId",
+            "isAuthParam": true,
+            "validation": "",
+            "authParamName": "client_id",
+            "defaultValue": "1070676999103-mrb785211pk70l4qv24bujpksoimirtg.apps.googleusercontent.com"
+          },
+          {
+            "title": "Client秘钥",
+            "placeholder": "请填写Google Analytics中的Client秘钥",
+            "inputType": "text",
+            "name": "clientKey",
+            "isAuthParam": false,
+            "validation": "",
+            "authParamName": null,
+            "defaultValue": "T79mxVDhDq_D24wlc1tgP6I9"
+          }
+        ],
+        "grantParams": [
+          {
+            "key": "response_type",
+            "value": "code"
+          },
+          {
+            "key": "scope",
+            "value": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/analytics.readonly"
+          },
+          {
+            "key": "redirect_uri",
+            "value": "http://www.datadeck.jp/datasource/getToken.shtml"
+          },
+          {
+            "key": "nonce",
+            "value": "random_value"
+          }
+        ],
+        "tokenUrl": "https://www.googleapis.com/oauth2/v4/token",
+        "tokenParams": [
+          {
+            "key": "redirect_uri",
+            "value": "http://www.datadeck.jp/datasource/getToken.shtml"
+          },
+          {
+            "key": "grant_type",
+            "value": "authorization_code"
+          }
+        ],
+        "accountResultKey": "id_token",
+        "accountParamKey": "id_token",
+        "accountUrl": "https://www.googleapis.com/oauth2/v3/tokeninfo",
+        "accountParseKey": "email"
+      }
+    }
+  ]
+}

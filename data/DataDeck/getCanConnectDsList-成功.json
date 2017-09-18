@@ -1,0 +1,145 @@
+{
+  "success": true,
+  "data": [
+    {
+      "dsCode": "ptengine",
+      "dsName": "Ptengine1",
+      "dsId": 13,
+      "hasConnection": true,
+      "category": "saas"
+    },
+    {
+      "dsCode": "googleanalysis",
+      "dsName": "Google Analytics",
+      "dsId": 1,
+      "hasConnection": true,
+      "category": "saas"
+    },
+    {
+      "dsCode": "yahooAdsYDN",
+      "dsName": "Yahoo Ads YDN",
+      "dsId": 30,
+      "hasConnection": true,
+      "category": null
+    },
+    {
+      "dsCode": "yahooAdsSS",
+      "dsName": "Yahoo Ads Sponsored Search",
+      "dsId": 31,
+      "hasConnection": true,
+      "category": null
+    },
+    {
+      "dsCode": "upload",
+      "dsName": "Excel/CSV ",
+      "dsId": 4,
+      "hasConnection": true,
+      "category": "local"
+    },
+    {
+      "dsCode": "mysql",
+      "dsName": "MySQL",
+      "dsId": 5,
+      "hasConnection": true,
+      "category": "rdatabase"
+    },
+    {
+      "dsCode": "mysqlAmazonRds",
+      "dsName": "Amazon RDS for MySQL",
+      "dsId": 7,
+      "hasConnection": true,
+      "category": "rdatabase"
+    },
+    {
+      "dsCode": "redshift",
+      "dsName": "Amazon Redshift",
+      "dsId": 9,
+      "hasConnection": true,
+      "category": "rdatabase"
+    },
+    {
+      "dsCode": "auroraAmazonRds",
+      "dsName": "Amazon RDS for Aurora",
+      "dsId": 10,
+      "hasConnection": true,
+      "category": "rdatabase"
+    },
+    {
+      "dsCode": "postgre",
+      "dsName": "PostgreSQL",
+      "dsId": 8,
+      "hasConnection": true,
+      "category": "rdatabase"
+    },
+    {
+      "dsCode": "s3",
+      "dsName": "Amazon S3",
+      "dsId": 20,
+      "hasConnection": true,
+      "category": "cloudstorage"
+    },
+    {
+      "dsCode": "sqlserver",
+      "dsName": "SQL Server",
+      "dsId": 32,
+      "hasConnection": true,
+      "category": "rdatabase"
+    },
+    {
+      "dsCode": "oracle",
+      "dsName": "Oracle",
+      "dsId": 35,
+      "hasConnection": true,
+      "category": "rdatabase"
+    },
+    {
+      "dsCode": "standardRedshift",
+      "dsName": "Standard Redshift",
+      "dsId": 26,
+      "hasConnection": false,
+      "category": "rdatabase"
+    },
+    {
+      "dsCode": "googleadsense",
+      "dsName": "Google Adsense",
+      "dsId": 28,
+      "hasConnection": false,
+      "category": "saas"
+    },
+    {
+      "dsCode": "mailchimp",
+      "dsName": "MailChimp",
+      "dsId": 27,
+      "hasConnection": false,
+      "category": "saas"
+    },
+    {
+      "dsCode": "googleadwords",
+      "dsName": "Google Adwords",
+      "dsId": 3,
+      "hasConnection": false,
+      "category": "saas"
+    },
+    {
+      "dsCode": "salesforce",
+      "dsName": "Salesforce",
+      "dsId": 19,
+      "hasConnection": false,
+      "category": "saas"
+    },
+    {
+      "dsCode": "stripe",
+      "dsName": "Stripe",
+      "dsId": 25,
+      "hasConnection": false,
+      "category": "saas"
+    },
+    {
+      "dsCode": "googledrive",
+      "dsName": "Google Drive",
+      "dsId": 6,
+      "hasConnection": false,
+      "category": "cloudstorage"
+    }
+  ]
+}
