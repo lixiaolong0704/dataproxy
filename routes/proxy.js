@@ -81,6 +81,7 @@ router.all('/server/:url', function (req, res, next) {
         return;
     }
  
+    // console.log(req.headers['token'])
     // url="http://127.0.0.1:3000/proxy/xx"
     var abc={
         uri:url,
@@ -99,7 +100,7 @@ router.all('/server/:url', function (req, res, next) {
         // "content-type":"application/json;charset=UTF-8",
         headers: {
             "content-type":"application/json",
-            'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaWduaW5fdGltZSI6MTUwNDU5NzI0ODA0MywidWlkIjoiNTlhZGZlZjA5OWNiZDYwZGEwZGMwZjBkIiwiaXNzIjoiZGF0YWRlY2siLCJpYXQiOjE1MDQ1OTcyNDgsInRpZCI6IjU5YWRmZWYwOTljYmQ2MGRhMGRjMGYwYyJ9.muy-rbCJpKpFjqx2dycdzAptpgA_BpS888wjG1WCyIg'
+            'token': req.headers['token']
         }
     };
     // eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaWduaW5fdGltZSI6MTUwNDU5NzI0ODA0MywidWlkIjoiNTlhZGZlZjA5OWNiZDYwZGEwZGMwZjBkIiwiaXNzIjoiZGF0YWRlY2siLCJpYXQiOjE1MDQ1OTcyNDgsInRpZCI6IjU5YWRmZWYwOTljYmQ2MGRhMGRjMGYwYyJ9.muy-rbCJpKpFjqx2dycdzAptpgA_BpS888wjG1WCyIg
