@@ -37,11 +37,11 @@ router.all('/server/:url', function (req, res, next) {
     // res.setHeader('Access-Control-Allow-Origin', '*');
 
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5555');
-    
+    res.setHeader('Access-Control-Allow-Origin', 'http://www.datadeck.jp');
     res.header("Access-Control-Allow-Credentials", "true");
 
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,DELETE");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token,x-xsrf-token");
     // res.setHeader("Content-Type", "text/javascript;charset=UTF-8");
 
     console.log(".......................********************");
@@ -105,6 +105,7 @@ router.all('/server/:url', function (req, res, next) {
     // eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaWduaW5fdGltZSI6MTUwNDU5NzI0ODA0MywidWlkIjoiNTlhZGZlZjA5OWNiZDYwZGEwZGMwZjBkIiwiaXNzIjoiZGF0YWRlY2siLCJpYXQiOjE1MDQ1OTcyNDgsInRpZCI6IjU5YWRmZWYwOTljYmQ2MGRhMGRjMGYwYyJ9.muy-rbCJpKpFjqx2dycdzAptpgA_BpS888wjG1WCyIg
     // console.log(url+"**"+mm+"**"+abc.method);
     
+    console.log("..........."+url);
     request(abc, function (err, response, body) {
 
         // 
@@ -112,7 +113,9 @@ router.all('/server/:url', function (req, res, next) {
         if(body){
             // console.log(body);
             try{
-                res.json(JSON.parse(body));
+                // console.log(JSON.stringify(body));
+                // res.json(JSON.parse(body));
+                res.json(body);
             }catch(e){
                 console.log("............................<");
                 console.log(abc.uri);
@@ -178,10 +181,10 @@ console.log("start .......");
 /* GET users listing. */
 router.all('/static/:folder/:filename/:postParamsNameFileName*?', function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5555');
-   
+    res.setHeader('Access-Control-Allow-Origin', 'http://www.datadeck.jp');
     res.header("Access-Control-Allow-Credentials", "true");
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,DELETE");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token,SpaceId");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token,SpaceId,x-xsrf-token");
 
 
 
