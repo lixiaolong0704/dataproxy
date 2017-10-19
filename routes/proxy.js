@@ -41,7 +41,7 @@ router.all('/server/:url', function (req, res, next) {
     res.header("Access-Control-Allow-Credentials", "true");
 
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT,DELETE");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token,x-xsrf-token");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization, Token,x-xsrf-token,tid");
     // res.setHeader("Content-Type", "text/javascript;charset=UTF-8");
 
     console.log(".......................********************");
@@ -100,7 +100,8 @@ router.all('/server/:url', function (req, res, next) {
         // "content-type":"application/json;charset=UTF-8",
         headers: {
             "content-type":"application/json",
-            'token': req.headers['token']
+            'token': req.headers['token'],
+            'tid': req.headers['tid']
         }
     };
     // eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaWduaW5fdGltZSI6MTUwNDU5NzI0ODA0MywidWlkIjoiNTlhZGZlZjA5OWNiZDYwZGEwZGMwZjBkIiwiaXNzIjoiZGF0YWRlY2siLCJpYXQiOjE1MDQ1OTcyNDgsInRpZCI6IjU5YWRmZWYwOTljYmQ2MGRhMGRjMGYwYyJ9.muy-rbCJpKpFjqx2dycdzAptpgA_BpS888wjG1WCyIg
